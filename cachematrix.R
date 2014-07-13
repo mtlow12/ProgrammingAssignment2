@@ -1,7 +1,7 @@
 ## Matrix inversion is usually a costly computation and there may be some benefit to caching the inverse of a matrix rather than compute it repeatedly. 
 ## The pair of functions below computes the inverse of a matrix and caches it
 
-##The makeCacheMatrix function creates a special "matrix" object that can cache its inverse.
+##The makeCacheMatrix function creates a special "matrix" object that can cache its inverse. test
 
 makeCacheMatrix <- function(x = matrix()) {
 
